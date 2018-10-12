@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ew"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+    <!-- drawable에 이미지를 미리 넣어 두었음 Realative가 xml 구성하는 데에 편할 것으로 예상됨 -->
+
+
+    <ImageButton
+        android:id="@+id/bluetooth"
+        android:layout_width="86.5dp"
+        android:layout_height="83dp"
+        android:clickable="true"
+        android:onClick="bluetooth"
+        android:src="@drawable/bluetooth" />
+
+    <ImageButton
+        android:id="@+id/alert"
+        android:layout_width="86.5dp"
+        android:layout_height="83dp"
+        android:layout_toRightOf="@id/bluetooth"
+        android:clickable="true"
+        android:onClick="alert"
+        android:src="@drawable/alert_on" />
+
+    <ImageButton
+        android:id="@+id/sensitivity"
+        android:layout_width="86.5dp"
+        android:layout_height="83dp"
+        android:layout_toRightOf="@id/alert"
+        android:clickable="true"
+        android:onClick="sensitivity"
+        android:src="@drawable/sensitivity_high" />
+
+    <ImageButton
+        android:id="@+id/calender"
+        android:layout_width="86.5dp"
+        android:layout_height="83dp"
+        android:layout_toRightOf="@id/sensitivity"
+        android:clickable="true"
+        android:onClick="calender"
+        android:src="@drawable/calender" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/calender"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/calender"
+        android:layout_marginBottom="18dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/calendarView"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginTop="23dp"
+        android:layout_toLeftOf="@+id/alert"
+        android:layout_toStartOf="@+id/alert">
+
+        <RadioButton
+            android:id="@+id/top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="상" />
+
+        <RadioButton
+            android:id="@+id/mid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="중" />
+
+        <RadioButton
+            android:id="@+id/low"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="하" />
+    </RadioGroup>
+
+
+</RelativeLayout>
