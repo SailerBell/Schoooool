@@ -76,6 +76,10 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\27198d22c669526406db49e154ac1bd01ea2fb15\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\diapper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ew.jpg",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\diapper\\app\\src\\main\\res\\drawable\\ew.jpg"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\diapper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sensitivity_low.png",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\diapper\\app\\src\\main\\res\\drawable\\sensitivity_low.png"
     },
@@ -106,10 +110,6 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\diapper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\27198d22c669526406db49e154ac1bd01ea2fb15\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\diapper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ew.png",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\diapper\\app\\src\\main\\res\\drawable\\ew.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\diapper\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
