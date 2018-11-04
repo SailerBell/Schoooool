@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\diapper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\device_list.xml",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\diapper\\app\\src\\main\\res\\layout\\device_list.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\diapper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\27198d22c669526406db49e154ac1bd01ea2fb15\\output\\res\\layout\\notification_template_media_custom.xml"
     },
@@ -38,6 +42,10 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\diapper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\27198d22c669526406db49e154ac1bd01ea2fb15\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\diapper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\device_name.xml",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\diapper\\app\\src\\main\\res\\layout\\device_name.xml"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\diapper\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
